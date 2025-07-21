@@ -5,7 +5,7 @@
 # IP-CIDR
 # IP-CIDR6
 
-IP-CIDR,10.10.10.12/32
+#IP-CIDR,10.10.10.12/32
 DOMAIN-KEYWORD,tracker
 DOMAIN,tracker.m-team.cc
 DOMAIN,tra1.m-team.cc
