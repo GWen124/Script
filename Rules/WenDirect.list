@@ -6,15 +6,15 @@
 # IP-CIDR6
 
 #IP-CIDR,10.10.10.12/32
-#DOMAIN-KEYWORD,tracker
-#DOMAIN,tracker.m-team.cc
-#DOMAIN,tra1.m-team.cc
-#DOMAIN,tra1.m-team.io
-#DOMAIN,tracker.m-team.io
-#DOMAIN,t.audiences.me
-#DOMAIN,tracker.cinefiles.info
-#DOMAIN,tracker.keepfrds.com
-#DOMAIN,tracker.hhanclub.top
-#DOMAIN,tracker.trackerfile.com
-#DOMAIN,tracker.hhan.club
+DOMAIN-KEYWORD,tracker
+DOMAIN,tracker.m-team.cc
+DOMAIN,tra1.m-team.cc
+DOMAIN,tra1.m-team.io
+DOMAIN,tracker.m-team.io
+DOMAIN,t.audiences.me
+DOMAIN,tracker.cinefiles.info
+DOMAIN,tracker.keepfrds.com
+DOMAIN,tracker.hhanclub.top
+DOMAIN,tracker.trackerfile.com
+DOMAIN,tracker.hhan.club
 DOMAIN-SUFFIX,115.com
