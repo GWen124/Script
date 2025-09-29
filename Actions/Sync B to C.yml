@@ -96,7 +96,7 @@ jobs:
               fi
             fi
 
-            git diff --name-only --diff-filter=U | xargs -I{} git checkout --theirs {}
+            git diff --name-only --diff-filter=U -z | xargs -0 -I{} git checkout --theirs "{}"
             git add .
             git commit -m "chore: auto-resolve conflicts (favor B)" || echo "No changes"
             git diff --name-only HEAD^ > after_merge.txt || true
