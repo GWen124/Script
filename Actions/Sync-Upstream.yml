@@ -1,7 +1,7 @@
 name: Sync from upstream
 
 on:
-  # 定时触发，这里是每天 3 点 UTC（根据你需要调整）  
+  # 定时触发，这里是每天 3 点 UTC（北京时间 11 点）
   schedule:
     - cron: "0 3 * * *"
   # 手动触发
@@ -15,9 +15,8 @@ jobs:
       - name: Checkout this repo
         uses: actions/checkout@v4
         with:
-          # 不使用默认凭证（可能与 upstream 冲突）
           persist-credentials: false
-          fetch-depth: 0   # 获取完整历史
+          fetch-depth: 0   # 拉取完整历史，避免 reset/merge 出问题
 
       - name: Setup Git identity
         run: |
@@ -27,7 +26,6 @@ jobs:
       - name: Add upstream remote
         run: |
           git remote add upstream https://github.com/MarSeventh/CloudFlare-ImgBed.git
-          # 验证是否添加成功
           git remote -v
 
       - name: Fetch from upstream
@@ -36,8 +34,17 @@ jobs:
 
       - name: Reset to upstream state and push
         run: |
-          # 假设上游主分支是 main（如果是 master 或其他要改这里）
+          # 如果上游主分支不是 main，请改成 master 或其他分支名
           git checkout main
           git reset --hard upstream/main
-          # 强制推送到你的仓库，用你自己的 token
           git push origin main --force
+
+# 说明与注意
+# • fetch-depth: 0 是为了拉取完整的 commit 历史，否则无法做 reset --hard 或合并历史。
+# • git reset --hard upstream/main 会让你的仓库 main 分支完全覆盖为上游 main 的状态，
+#   所有你自己仓库的修改（如果未被上游包含）都会被覆盖。
+# • --force 推送是必须的，因为可能会回退或重写历史。
+# • 如果上游分支不是 main（比如是 master 或 dev），请替换 main 为正确的分支名。
+# • cron 的时间是 UTC，要根据时区换算，例如 "0 3 * * *" 实际是北京时间 11 点。
+# • 如果你想“保留自己修改并合并更新”，可以用 git merge upstream/main 替代 reset --hard。
+#   但如果出现冲突，需要在 Action 里选择策略（比如自动偏向 upstream 或保留本地）。
