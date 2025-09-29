@@ -39,7 +39,7 @@ jobs:
           echo "Working directory: $WORKDIR"
           
           # 克隆目标仓库 C 到随机目录
-          git clone --depth=0 $TARGET_REPO $WORKDIR
+          git clone $TARGET_REPO $WORKDIR
           cd $WORKDIR
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -75,7 +75,7 @@ jobs:
 
       - name: Upload merge logs
         if: ${{ github.event.inputs.mode != 'force' }}
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: merge-logs
           path: $WORKDIR/{before_merge.txt,after_merge.txt}
