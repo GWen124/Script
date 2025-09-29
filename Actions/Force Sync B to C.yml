@@ -1,0 +1,31 @@
+name: Force Sync B to C
+
+# 描述：
+# 这个 workflow 会把仓库 B 的 main 分支内容 **完全覆盖** 仓库 C 的 main 分支。
+# 注意：仓库 C 的原有修改会被删除，慎用！仅适合你希望完全同步 B 的场景。
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # 每天 3 点 UTC（北京时间 11 点）
+  workflow_dispatch:       # 支持手动运行
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout B
+        run: |
+          # 克隆仓库 B（上游仓库）
+          git clone --depth=0 https://github.com/MarSeventh/CloudFlare-ImgBed.git repo-b
+          cd repo-b
+
+          # 配置 Git 身份
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # 添加仓库 C（你的仓库）作为远程
+          git remote add target https://x-access-token:${{ secrets.REPO_TOKEN }}@github.com/GWen124/CloudFlare-ImgBed.git
+
+          # 推送到仓库 C（强制覆盖 main 分支）
+          git push target main --force
