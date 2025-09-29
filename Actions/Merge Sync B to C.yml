@@ -1,0 +1,43 @@
+name: Merge Sync B to C
+
+# 这个 workflow 会将仓库 B 的 main 分支更新合并到仓库 C 的 main 分支。
+# 如果出现冲突，会自动使用 B 的版本（theirs）覆盖冲突文件。
+# 优点：不会完全覆盖 C 的自定义修改，同时保持 B 的更新。
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # 每天 3 点 UTC（北京时间 11 点）
+  workflow_dispatch:       # 支持手动触发
+
+jobs:
+  merge-sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout C
+        run: |
+          # 克隆仓库 C（目标仓库）
+          git clone --depth=0 https://x-access-token:${{ secrets.REPO_TOKEN }}@github.com/GWen124/CloudFlare-ImgBed.git repo-c
+          cd repo-c
+
+          # 配置 Git 提交身份
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # 添加仓库 B（上游仓库）
+          git remote add upstream https://github.com/MarSeventh/CloudFlare-ImgBed.git
+          git fetch upstream
+
+          # 切换到 main 分支
+          git checkout main
+
+          # 合并 B 的 main 分支
+          git merge upstream/main -m "chore: merge from B" || true
+
+          # 自动解决冲突：优先使用 B 的版本
+          git diff --name-only --diff-filter=U | xargs -I{} git checkout --theirs {}
+          git add .
+          git commit -m "chore: auto-resolve conflicts (favor B)" || echo "No changes to commit"
+
+          # 推送合并后的结果到仓库 C
+          git push origin main
