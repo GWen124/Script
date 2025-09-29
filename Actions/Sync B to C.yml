@@ -54,15 +54,13 @@ jobs:
             # ===== 完全覆盖模式 =====
             echo "Force sync: B -> C (overwrite)"
 
-            # 统计目标仓库文件数
             TOTAL_FILES=$(git ls-files | wc -l)
             echo "目标仓库文件总数: $TOTAL_FILES"
 
-            # 获取上游分支文件列表
+            git fetch upstream $UPSTREAM_BRANCH
             UPSTREAM_FILES=$(git ls-tree -r --name-only upstream/$UPSTREAM_BRANCH | wc -l)
             echo "上游仓库文件总数: $UPSTREAM_FILES"
 
-            # 删除文件数 = TOTAL_FILES - UPSTREAM_FILES
             DELETE_COUNT=$((TOTAL_FILES - UPSTREAM_FILES))
             if [ $DELETE_COUNT -gt 0 ]; then
               DELETE_RATIO=$(awk "BEGIN {printf \"%.2f\", $DELETE_COUNT/$TOTAL_FILES}")
@@ -73,19 +71,22 @@ jobs:
               fi
             fi
 
+            rm -f .git/index.lock
             git checkout -B $TARGET_BRANCH upstream/$UPSTREAM_BRANCH
+            rm -f .git/index.lock
             git push origin $TARGET_BRANCH --force
             echo "Force sync complete!"
           else
             # ===== 安全合并模式 =====
             echo "Merge sync: B -> C (merge with conflicts favor B)"
+            rm -f .git/index.lock
             git checkout $TARGET_BRANCH || git checkout -b $TARGET_BRANCH
 
+            rm -f .git/index.lock
             git diff --name-only > before_merge.txt || true
             git merge upstream/$UPSTREAM_BRANCH -m "chore: merge $UPSTREAM_BRANCH into $TARGET_BRANCH" || true
 
-            # 计算被删除的文件数
-            DELETED_FILES=$(git diff --name-only --diff-filter=D HEAD~1 HEAD | wc -l)
+            DELETED_FILES=$(git diff --name-only --diff-filter=D HEAD~1 HEAD 2>/dev/null | wc -l)
             TOTAL_FILES=$(git ls-files | wc -l)
             if [ $TOTAL_FILES -gt 0 ]; then
               DELETE_RATIO=$(awk "BEGIN {printf \"%.2f\", $DELETED_FILES/$TOTAL_FILES}")
@@ -96,20 +97,38 @@ jobs:
               fi
             fi
 
-            git diff --name-only --diff-filter=U -z | xargs -0 -I{} git checkout --theirs "{}"
+            # 冲突自动处理，带锁保护
+            rm -f .git/index.lock
+            git diff --name-only --diff-filter=U -z | while IFS= read -r -d '' file; do
+              if git ls-files -u | grep -q "3\t$file$"; then
+                git checkout --theirs -- "$file"
+              else
+                echo "⚠️ 跳过 $file，因为没有 theirs 版本"
+              fi
+            done
+
+            rm -f .git/index.lock
             git add .
+            rm -f .git/index.lock
             git commit -m "chore: auto-resolve conflicts (favor B)" || echo "No changes"
-            git diff --name-only HEAD^ > after_merge.txt || true
+
+            rm -f .git/index.lock
+            git diff --name-only HEAD^ HEAD 2>/dev/null > after_merge.txt || touch after_merge.txt
 
             echo "Files updated from B ($UPSTREAM_BRANCH) into C ($TARGET_BRANCH):"
-            comm -13 <(sort before_merge.txt) <(sort after_merge.txt) || echo "No files changed"
+            if [ -s before_merge.txt ] && [ -s after_merge.txt ]; then
+              comm -13 <(sort before_merge.txt || true) <(sort after_merge.txt || true) || true
+            else
+              echo "No files changed"
+            fi
 
+            rm -f .git/index.lock
             git push origin $TARGET_BRANCH
             echo "Merge sync complete!"
           fi
 
       - name: Upload merge logs
-        if: ${{ github.event.inputs.mode != 'force' }}
+        if: ${{ always() }}
         uses: actions/upload-artifact@v4
         with:
           name: merge-logs
