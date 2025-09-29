@@ -6,6 +6,7 @@ name: Sync B to C (merge or force, upload logs)
 # 上游仓库和目标仓库分支可通过变量 UPSTREAM_BRANCH 和 TARGET_BRANCH 修改。
 # 日志中会显示改动文件，方便追踪。
 # merge 模式下会把 before_merge.txt 和 after_merge.txt 上传为 artifacts 供下载查看。
+# 新增：保护机制，当上游删除文件比例超过阈值时停止同步，避免误删。
 
 on:
   schedule:
@@ -20,47 +21,81 @@ jobs:
       - name: Checkout and sync
         run: |
           # ===== 配置选项 =====
-          # - merge: 安全合并上游 B 到目标 C（冲突优先 B）
-          # - force: 完全覆盖目标 C，直接用 B 的内容替换
-          MODE="force"           # 选择模式：merge 或 force
+          MODE="merge"           # 选择模式：merge 或 force
           # 上游仓库
           UPSTREAM_REPO="https://github.com/MarSeventh/CloudFlare-ImgBed.git"
-          # 上游仓库的分支
           UPSTREAM_BRANCH="main"
           # 目标仓库
           TARGET_REPO="https://x-access-token:${{ secrets.REPO_TOKEN }}@github.com/GWen124/CloudFlare-ImgBed.git"
-          # 目标仓库的分支
           TARGET_BRANCH="main"
           # 随机生成工作目录名
           WORKDIR="repo-$(date +%s)-$RANDOM"
+          # 删除文件比例阈值（0-1）
+          DELETE_THRESHOLD=0.5
           # ====================
 
           echo "Sync mode: $MODE"
           echo "Working directory: $WORKDIR"
-          
-          # 克隆目标仓库 C 到随机目录
+
           git clone $TARGET_REPO $WORKDIR
           cd $WORKDIR
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          git remote add upstream $UPSTREAM_REPO
+
+          # 尝试 fetch 上游分支，如果不存在则优雅退出
+          if ! git fetch upstream $UPSTREAM_BRANCH; then
+            echo "❌ 上游仓库分支 $UPSTREAM_BRANCH 不存在或被删除，停止同步！"
+            exit 1
+          fi
+
           if [ "$MODE" = "force" ]; then
             # ===== 完全覆盖模式 =====
             echo "Force sync: B -> C (overwrite)"
-            git remote add upstream $UPSTREAM_REPO
-            git fetch upstream $UPSTREAM_BRANCH
+
+            # 统计目标仓库文件数
+            TOTAL_FILES=$(git ls-files | wc -l)
+            echo "目标仓库文件总数: $TOTAL_FILES"
+
+            # 获取上游分支文件列表
+            UPSTREAM_FILES=$(git ls-tree -r --name-only upstream/$UPSTREAM_BRANCH | wc -l)
+            echo "上游仓库文件总数: $UPSTREAM_FILES"
+
+            # 删除文件数 = TOTAL_FILES - UPSTREAM_FILES
+            DELETE_COUNT=$((TOTAL_FILES - UPSTREAM_FILES))
+            if [ $DELETE_COUNT -gt 0 ]; then
+              DELETE_RATIO=$(awk "BEGIN {printf \"%.2f\", $DELETE_COUNT/$TOTAL_FILES}")
+              echo "上游删除文件数: $DELETE_COUNT, 比例: $DELETE_RATIO"
+              if (( $(echo "$DELETE_RATIO > $DELETE_THRESHOLD" | bc -l) )); then
+                echo "❌ 删除文件比例超过阈值 $DELETE_THRESHOLD，停止同步！"
+                exit 1
+              fi
+            fi
+
             git checkout -B $TARGET_BRANCH upstream/$UPSTREAM_BRANCH
             git push origin $TARGET_BRANCH --force
             echo "Force sync complete!"
           else
             # ===== 安全合并模式 =====
             echo "Merge sync: B -> C (merge with conflicts favor B)"
-            git remote add upstream $UPSTREAM_REPO
-            git fetch upstream $UPSTREAM_BRANCH
             git checkout $TARGET_BRANCH || git checkout -b $TARGET_BRANCH
 
             git diff --name-only > before_merge.txt || true
             git merge upstream/$UPSTREAM_BRANCH -m "chore: merge $UPSTREAM_BRANCH into $TARGET_BRANCH" || true
+
+            # 计算被删除的文件数
+            DELETED_FILES=$(git diff --name-only --diff-filter=D HEAD~1 HEAD | wc -l)
+            TOTAL_FILES=$(git ls-files | wc -l)
+            if [ $TOTAL_FILES -gt 0 ]; then
+              DELETE_RATIO=$(awk "BEGIN {printf \"%.2f\", $DELETED_FILES/$TOTAL_FILES}")
+              echo "Merge 中上游删除文件数: $DELETED_FILES, 比例: $DELETE_RATIO"
+              if (( $(echo "$DELETE_RATIO > $DELETE_THRESHOLD" | bc -l) )); then
+                echo "❌ 删除文件比例超过阈值 $DELETE_THRESHOLD，停止同步！"
+                exit 1
+              fi
+            fi
+
             git diff --name-only --diff-filter=U | xargs -I{} git checkout --theirs {}
             git add .
             git commit -m "chore: auto-resolve conflicts (favor B)" || echo "No changes"
