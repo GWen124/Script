@@ -1,6 +1,5 @@
 name: Merge Sync B to C (logs only changed files, branches configurable)
 
-# 描述：
 # 这个 workflow 会将仓库 B（上游仓库）的指定分支更新合并到仓库 C（你的仓库）的指定分支。
 # 如果出现冲突，会自动使用 B 的版本（theirs）覆盖冲突文件。
 # 每次执行只打印发生改动的文件，方便追踪同步内容。
