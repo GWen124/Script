@@ -1,9 +1,8 @@
 name: Sync B to C (merge or force, upload logs)
 
-# 描述：
-# 这个 workflow 可以选择同步模式：
 # - merge: 安全合并上游 B 到目标 C（冲突优先 B）
 # - force: 完全覆盖目标 C，直接用 B 的内容替换
+# 这个 workflow 可以选择同步模式：
 # 上游仓库和目标仓库分支可通过变量 UPSTREAM_BRANCH 和 TARGET_BRANCH 修改。
 # 日志中会显示改动文件，方便追踪。
 # merge 模式下会把 before_merge.txt 和 after_merge.txt 上传为 artifacts 供下载查看。
@@ -21,14 +20,16 @@ jobs:
       - name: Checkout and sync
         run: |
           # ===== 配置选项 =====
-          MODE="merge"           # 选择模式：merge 或 force
-          # 上游仓库 B
+          # - merge: 安全合并上游 B 到目标 C（冲突优先 B）
+          # - force: 完全覆盖目标 C，直接用 B 的内容替换
+          MODE="force"           # 选择模式：merge 或 force
+          # 上游仓库
           UPSTREAM_REPO="https://github.com/MarSeventh/CloudFlare-ImgBed.git"
-          # 上游仓库 B 的分支
+          # 上游仓库的分支
           UPSTREAM_BRANCH="main"
-          # 目标仓库 C
+          # 目标仓库
           TARGET_REPO="https://x-access-token:${{ secrets.REPO_TOKEN }}@github.com/GWen124/CloudFlare-ImgBed.git"
-          # 目标仓库 C 的分支
+          # 目标仓库的分支
           TARGET_BRANCH="main"
           # 随机生成工作目录名
           WORKDIR="repo-$(date +%s)-$RANDOM"
