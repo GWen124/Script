@@ -1,8 +1,8 @@
-name: Force Sync B to C
+name: Force Sync B to C (logs only changed files)
 
-# 描述：
 # 这个 workflow 会把仓库 B（上游仓库）的 main 分支内容 **完全覆盖** 仓库 C（你的仓库）的 main 分支。
 # 注意：仓库 C 的原有修改会被删除，慎用！仅适合你希望完全同步 B 的场景。
+# 每次执行只打印仓库 B 中发生改动的文件，方便追踪同步内容。
 
 on:
   schedule:
@@ -27,5 +27,14 @@ jobs:
           # 添加仓库 C（你的仓库）作为远程
           git remote add target https://x-access-token:${{ secrets.REPO_TOKEN }}@github.com/GWen124/CloudFlare-ImgBed.git
 
+          # 获取 C 仓库最新状态（为了比较）
+          git fetch target main
+          git diff --name-only target/main > changed_files.txt || true
+
+          echo "Files that will be updated in C:"
+          cat changed_files.txt
+
           # 推送到仓库 C（强制覆盖 main 分支）
           git push target main --force
+
+          echo "Sync complete! All changes from B have been pushed to C."
