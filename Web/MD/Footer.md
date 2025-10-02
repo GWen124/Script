@@ -114,15 +114,15 @@ HTML 结构：
       color: #94a3b8;
       text-decoration: none;
       transition: color .2s ease;
-      font-weight: 600;
+      font-weight: 500;
       text-underline-offset: 2px;
       position: relative;
     }
     .footer .link-green::after {
       content: "";
       position: absolute;
-      left: 0; right: 0; bottom: -2px;
-      height: 2px; border-radius: 2px;
+      left: 0; right: 0; bottom: -1px;
+      height: 1px; border-radius: 2px;
       background-color: currentColor;
       transform: scaleX(0);
       transform-origin: center;
@@ -131,7 +131,7 @@ HTML 结构：
     .footer .link-green:hover::after { transform: scaleX(1); }
     .footer .link-green:first-of-type,
     .footer .link-green:last-of-type {
-      font-weight: 700; text-transform: uppercase; letter-spacing: .4px;
+      font-weight: 600; text-transform: uppercase; letter-spacing: .4px;
     }
   </style>
   <!-- 提示：仅包含文字相关样式，无背景/边框/毛玻璃 -->
