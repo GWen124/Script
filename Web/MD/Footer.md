@@ -103,15 +103,15 @@ HTML 结构：
       position: relative;
     }
     .footer .footer-line {
-      color: #94a3b8;
+      color: #000000; /* 黑色文字 */
       font-size: 0.9rem;
       margin: 0;
       letter-spacing: 0.5px;
       line-height: 1.5;
-      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+      text-shadow: none; /* 移除阴影，避免发灰 */
     }
     .footer .link-green {
-      color: #94a3b8;
+      color: #000000; /* 黑色链接 */
       text-decoration: none;
       transition: color .2s ease;
       font-weight: 500;
@@ -123,7 +123,7 @@ HTML 结构：
       position: absolute;
       left: 0; right: 0; bottom: -1px;
       height: 1px; border-radius: 2px;
-      background-color: currentColor;
+      background-color: #000; /* 改为纯黑色下划线 */
       transform: scaleX(0);
       transform-origin: center;
       transition: transform .25s ease;
@@ -134,8 +134,7 @@ HTML 结构：
       font-weight: 600; text-transform: uppercase; letter-spacing: .4px;
     }
   </style>
-  <!-- 提示：仅包含文字相关样式，无背景/边框/毛玻璃 -->
-  </footer>
+</footer>
 ```
 
 
