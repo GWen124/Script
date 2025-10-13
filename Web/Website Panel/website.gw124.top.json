@@ -46,6 +46,41 @@
       {
         "name": "ChatGPT",
         "url": "https://chat.openai.com",
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/AI/ChatGPT Web.png"
+      },
+      {
+        "name": "DeepSeek",
+        "url": "https://chat.deepseek.com/",
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/AI/DeepSeek.png"
+      },
+      {
+        "name": "Cursor",
+        "url": "https://www.cursor.com",
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/AI/Cursor.png"
+      },
+      {
+        "name": "SiliconFlow",
+        "url": "https://cloud.siliconflow.cn/",
+        "icon": ""
+      },
+      {
+        "name": "腾讯混元",
+        "url": "https://hunyuan.tencent.com/",
+        "icon": "https://cdn-portal.hunyuan.tencent.com/public/static/logo/favicon.png"
+      },
+      {
+        "name": "秘塔",
+        "url": "https://metaso.cn/",
+        "icon": ""
+      },
+      {
+        "name": "FastGPT",
+        "url": "https://cloud.fastgpt.io/dashboard/apps",
+        "icon": "https://cdn.jsdelivr.net/gh/oliver556/my-icons@gh-pages/icon/AI/FastGPT.png"
+      },
+      {
+        "name": "Grok",
+        "url": "https://grok.com/",
         "icon": ""
       },
       {
@@ -56,21 +91,16 @@
       {
         "name": "Gemini",
         "url": "https://gemini.google.com",
-        "icon": ""
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/AI/Gemini.png"
       },
       {
         "name": "Copilot",
         "url": "https://github.com/features/copilot",
-        "icon": ""
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/Project Management & To-do List/GitHub_C.png"
       },
       {
         "name": "Midjourney",
         "url": "https://midjourney.com",
-        "icon": ""
-      },
-      {
-        "name": "DALL-E",
-        "url": "https://openai.com/dall-e-2",
         "icon": ""
       },
       {
