@@ -1189,6 +1189,26 @@
     "name": "PT Sites - 私有PT站",
     "sites": [
       {
+        "name": "Audiences",
+        "url": "https://audiences.me/torrents.php",
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/PT/Audiences.png"
+      },
+      {
+        "name": "M-Team",
+        "url": "https://kp.m-team.cc",
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/PT/M-Team.png"
+      },
+      {
+        "name": "KeepFRDS",
+        "url": "https://pt.keepfrds.com/torrents.php",
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/PT/FRDS.png"
+      },
+      {
+        "name": "Hhanclub",
+        "url": "https://hhanclub.top/",
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/PT/HHCLUB.png"
+      },
+      {
         "name": "PT站导航",
         "url": "https://pt.sjtu.edu.cn",
         "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/PT/ecustpt.png"
