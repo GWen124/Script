@@ -607,11 +607,6 @@
         "name": "Wix",
         "url": "https://wix.com",
         "icon": ""
-      },
-      {
-        "name": "WordPress",
-        "url": "https://wordpress.com",
-        "icon": ""
       }
     ]
   },
@@ -1044,11 +1039,6 @@
         "icon": ""
       },
       {
-        "name": "Zoom",
-        "url": "https://zoom.us",
-        "icon": ""
-      },
-      {
         "name": "Signal",
         "url": "https://signal.org",
         "icon": ""
@@ -1076,11 +1066,6 @@
       {
         "name": "Lark",
         "url": "https://larksuite.com",
-        "icon": ""
-      },
-      {
-        "name": "Google Meet",
-        "url": "https://meet.google.com",
         "icon": ""
       },
       {
@@ -1589,16 +1574,6 @@
         "icon": ""
       },
       {
-        "name": "韵达快递",
-        "url": "https://yunda.cn",
-        "icon": ""
-      },
-      {
-        "name": "百世快递",
-        "url": "https://best-inc.cn",
-        "icon": ""
-      },
-      {
         "name": "极兔速递",
         "url": "https://jtexpress.cn",
         "icon": ""
@@ -1614,21 +1589,6 @@
         "icon": ""
       },
       {
-        "name": "德邦快递",
-        "url": "https://deppon.com",
-        "icon": ""
-      },
-      {
-        "name": "天天快递",
-        "url": "https://ttkdex.com",
-        "icon": ""
-      },
-      {
-        "name": "宅急送",
-        "url": "https://zjs.com.cn",
-        "icon": ""
-      },
-      {
         "name": "EMS中国邮政",
         "url": "https://ems.com.cn",
         "icon": ""
@@ -1636,21 +1596,6 @@
       {
         "name": "速尔快递",
         "url": "https://sure56.com",
-        "icon": ""
-      },
-      {
-        "name": "跨越速运",
-        "url": "https://kysy.com.cn",
-        "icon": ""
-      },
-      {
-        "name": "安能物流",
-        "url": "https://ane56.com",
-        "icon": ""
-      },
-      {
-        "name": "壹米滴答",
-        "url": "https://yimidida.com",
         "icon": ""
       },
       {
@@ -1761,16 +1706,6 @@
       {
         "name": "观察者网",
         "url": "https://guancha.cn",
-        "icon": ""
-      },
-      {
-        "name": "第一财经",
-        "url": "https://yicai.com",
-        "icon": ""
-      },
-      {
-        "name": "财经网",
-        "url": "https://caijing.com.cn",
         "icon": ""
       },
       {
