@@ -1,0 +1,1908 @@
+[
+  {
+    "name": "Favorites - 常用网站",
+    "sites": [
+      {
+        "name": "Home Page",
+        "url": "https://gw124.top",
+        "icon": "https://image.gw124.top/Avatar/A62B54A6-13B8-4BB8-9AAA-75E3342388BB_1_105_c.jpeg"
+      },
+      {
+        "name": "Google",
+        "url": "https://www.google.com/",
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/Google/Google.png",
+        "autoIcon": true
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com",
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/Project Management & To-do List/GitHub_A.png"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/",
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/Streaming Service Platform/Youtube.png"
+      },
+      {
+        "name": "CloudFlare",
+        "url": "https://www.cloudflare.com",
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/Cloud Protection Services/Cloudflare.png"
+      },
+      {
+        "name": "Bilibili",
+        "url": "https://www.bilibili.com/",
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/Streaming Service Platform/Bilibili.png"
+      },
+      {
+        "name": "知乎",
+        "url": "https://www.zhihu.com/",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "name": "AI Tools - AI工具",
+    "sites": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com",
+        "icon": ""
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai",
+        "icon": ""
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com",
+        "icon": ""
+      },
+      {
+        "name": "Copilot",
+        "url": "https://github.com/features/copilot",
+        "icon": ""
+      },
+      {
+        "name": "Midjourney",
+        "url": "https://midjourney.com",
+        "icon": ""
+      },
+      {
+        "name": "DALL-E",
+        "url": "https://openai.com/dall-e-2",
+        "icon": ""
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stablediffusionweb.com",
+        "icon": ""
+      },
+      {
+        "name": "Runway",
+        "url": "https://runwayml.com",
+        "icon": ""
+      },
+      {
+        "name": "Notion AI",
+        "url": "https://notion.so/product/ai",
+        "icon": ""
+      },
+      {
+        "name": "Grammarly",
+        "url": "https://grammarly.com",
+        "icon": ""
+      },
+      {
+        "name": "Jasper",
+        "url": "https://jasper.ai",
+        "icon": ""
+      },
+      {
+        "name": "Copy.ai",
+        "url": "https://copy.ai",
+        "icon": ""
+      },
+      {
+        "name": "Perplexity",
+        "url": "https://perplexity.ai",
+        "icon": ""
+      },
+      {
+        "name": "Character.AI",
+        "url": "https://character.ai",
+        "icon": ""
+      },
+      {
+        "name": "Hugging Face",
+        "url": "https://huggingface.co",
+        "icon": ""
+      },
+      {
+        "name": "Replicate",
+        "url": "https://replicate.com",
+        "icon": ""
+      },
+      {
+        "name": "Anthropic",
+        "url": "https://anthropic.com",
+        "icon": ""
+      },
+      {
+        "name": "Cohere",
+        "url": "https://cohere.ai",
+        "icon": ""
+      },
+      {
+        "name": "ElevenLabs",
+        "url": "https://elevenlabs.io",
+        "icon": ""
+      },
+      {
+        "name": "Synthesia",
+        "url": "https://synthesia.io",
+        "icon": ""
+      },
+      {
+        "name": "RunwayML",
+        "url": "https://runwayml.com",
+        "icon": ""
+      },
+      {
+        "name": "Stable Video Diffusion",
+        "url": "https://stability.ai",
+        "icon": ""
+      },
+      {
+        "name": "Pika Labs",
+        "url": "https://pika.art",
+        "icon": ""
+      },
+      {
+        "name": "LeiaPix",
+        "url": "https://convert.leiapix.com",
+        "icon": ""
+      },
+      {
+        "name": "Kaiber",
+        "url": "https://kaiber.ai",
+        "icon": ""
+      },
+      {
+        "name": "InVideo",
+        "url": "https://invideo.io",
+        "icon": ""
+      },
+      {
+        "name": "Luma AI",
+        "url": "https://lumalabs.ai",
+        "icon": ""
+      },
+      {
+        "name": "HeyGen",
+        "url": "https://heygen.com",
+        "icon": ""
+      },
+      {
+        "name": "D-ID",
+        "url": "https://d-id.com",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "name": "Online Tools - 在线工具",
+    "sites": [
+      {
+        "name": "在线转换工具",
+        "url": "https://convertio.co",
+        "icon": ""
+      },
+      {
+        "name": "PDF工具",
+        "url": "https://smallpdf.com",
+        "icon": ""
+      },
+      {
+        "name": "图片压缩",
+        "url": "https://tinypng.com",
+        "icon": ""
+      },
+      {
+        "name": "图片编辑",
+        "url": "https://pixlr.com",
+        "icon": ""
+      },
+      {
+        "name": "在线PS",
+        "url": "https://photopea.com",
+        "icon": ""
+      },
+      {
+        "name": "二维码生成",
+        "url": "https://cli.im",
+        "icon": ""
+      },
+      {
+        "name": "短链接生成",
+        "url": "https://bitly.com",
+        "icon": ""
+      },
+      {
+        "name": "正则表达式测试",
+        "url": "https://regex101.com",
+        "icon": ""
+      },
+      {
+        "name": "JSON格式化",
+        "url": "https://jsonformatter.org",
+        "icon": ""
+      },
+      {
+        "name": "代码美化",
+        "url": "https://codebeautify.org",
+        "icon": ""
+      },
+      {
+        "name": "Markdown编辑器",
+        "url": "https://dillinger.io",
+        "icon": ""
+      },
+      {
+        "name": "文字识别OCR",
+        "url": "https://pearocr.com",
+        "icon": ""
+      },
+      {
+        "name": "在线代码编辑器",
+        "url": "https://codesandbox.io",
+        "icon": ""
+      },
+      {
+        "name": "在线画图",
+        "url": "https://draw.io",
+        "icon": ""
+      },
+      {
+        "name": "临时邮箱",
+        "url": "https://temp-mail.org",
+        "icon": ""
+      },
+      {
+        "name": "文件传输",
+        "url": "https://wetransfer.com",
+        "icon": ""
+      },
+      {
+        "name": "IP查询",
+        "url": "https://ip.cn",
+        "icon": ""
+      },
+      {
+        "name": "网速测试",
+        "url": "https://speedtest.net",
+        "icon": ""
+      },
+      {
+        "name": "时间戳转换",
+        "url": "https://tool.lu/timestamp",
+        "icon": ""
+      },
+      {
+        "name": "颜色选择器",
+        "url": "https://colorhunt.co",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "name": "Useful Tools - 实用工具",
+    "sites": [
+      {
+        "name": "翻译工具",
+        "url": "https://translate.google.com",
+        "icon": ""
+      },
+      {
+        "name": "有道翻译",
+        "url": "https://fanyi.youdao.com",
+        "icon": ""
+      },
+      {
+        "name": "百度翻译",
+        "url": "https://fanyi.baidu.com",
+        "icon": ""
+      },
+      {
+        "name": "DeepL翻译",
+        "url": "https://deepl.com",
+        "icon": ""
+      },
+      {
+        "name": "在线词典",
+        "url": "https://dict.cn",
+        "icon": ""
+      },
+      {
+        "name": "汉字转拼音",
+        "url": "https://www.chineseconverter.com",
+        "icon": ""
+      },
+      {
+        "name": "计算器",
+        "url": "https://calculator.net",
+        "icon": ""
+      },
+      {
+        "name": "单位换算",
+        "url": "https://convertworld.com",
+        "icon": ""
+      },
+      {
+        "name": "汇率换算",
+        "url": "https://xe.com",
+        "icon": ""
+      },
+      {
+        "name": "时区转换",
+        "url": "https://worldtimebuddy.com",
+        "icon": ""
+      },
+      {
+        "name": "在线录屏",
+        "url": "https://screencast-o-matic.com",
+        "icon": ""
+      },
+      {
+        "name": "视频下载",
+        "url": "https://savefrom.net",
+        "icon": ""
+      },
+      {
+        "name": "字体下载",
+        "url": "https://fonts.google.com",
+        "icon": ""
+      },
+      {
+        "name": "图标下载",
+        "url": "https://iconfont.cn",
+        "icon": ""
+      },
+      {
+        "name": "免费图片",
+        "url": "https://unsplash.com",
+        "icon": ""
+      },
+      {
+        "name": "Logo生成",
+        "url": "https://logomakr.com",
+        "icon": ""
+      },
+      {
+        "name": "在线抠图",
+        "url": "https://remove.bg",
+        "icon": ""
+      },
+      {
+        "name": "文档协作",
+        "url": "https://docs.google.com",
+        "icon": ""
+      },
+      {
+        "name": "思维导图",
+        "url": "https://xmind.net",
+        "icon": ""
+      },
+      {
+        "name": "在线白板",
+        "url": "https://miro.com",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "name": "Productivity - 生产力工具",
+    "sites": [
+      {
+        "name": "Notion",
+        "url": "https://notion.so",
+        "icon": ""
+      },
+      {
+        "name": "Airtable",
+        "url": "https://airtable.com",
+        "icon": ""
+      },
+      {
+        "name": "Monday.com",
+        "url": "https://monday.com",
+        "icon": ""
+      },
+      {
+        "name": "Asana",
+        "url": "https://asana.com",
+        "icon": ""
+      },
+      {
+        "name": "Jira",
+        "url": "https://atlassian.com/software/jira",
+        "icon": ""
+      },
+      {
+        "name": "Confluence",
+        "url": "https://atlassian.com/software/confluence",
+        "icon": ""
+      },
+      {
+        "name": "Basecamp",
+        "url": "https://basecamp.com",
+        "icon": ""
+      },
+      {
+        "name": "ClickUp",
+        "url": "https://clickup.com",
+        "icon": ""
+      },
+      {
+        "name": "Wrike",
+        "url": "https://wrike.com",
+        "icon": ""
+      },
+      {
+        "name": "Smartsheet",
+        "url": "https://smartsheet.com",
+        "icon": ""
+      },
+      {
+        "name": "Todoist",
+        "url": "https://todoist.com",
+        "icon": ""
+      },
+      {
+        "name": "Any.do",
+        "url": "https://any.do",
+        "icon": ""
+      },
+      {
+        "name": "TickTick",
+        "url": "https://ticktick.com",
+        "icon": ""
+      },
+      {
+        "name": "Things",
+        "url": "https://culturedcode.com/things",
+        "icon": ""
+      },
+      {
+        "name": "OmniFocus",
+        "url": "https://omnigroup.com/omnifocus",
+        "icon": ""
+      },
+      {
+        "name": "Evernote",
+        "url": "https://evernote.com",
+        "icon": ""
+      },
+      {
+        "name": "OneNote",
+        "url": "https://onenote.com",
+        "icon": ""
+      },
+      {
+        "name": "Obsidian",
+        "url": "https://obsidian.md",
+        "icon": ""
+      },
+      {
+        "name": "Roam Research",
+        "url": "https://roamresearch.com",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "name": "Dev Tools - 开发工具",
+    "sites": [
+      {
+        "name": "VS Code",
+        "url": "https://code.visualstudio.com",
+        "icon": ""
+      },
+      {
+        "name": "Codepen",
+        "url": "https://codepen.io",
+        "icon": ""
+      },
+      {
+        "name": "JSFiddle",
+        "url": "https://jsfiddle.net",
+        "icon": ""
+      },
+      {
+        "name": "Replit",
+        "url": "https://replit.com",
+        "icon": ""
+      },
+      {
+        "name": "Postman",
+        "url": "https://postman.com",
+        "icon": ""
+      },
+      {
+        "name": "Docker",
+        "url": "https://docker.com",
+        "icon": ""
+      },
+      {
+        "name": "Figma",
+        "url": "https://figma.com",
+        "icon": ""
+      },
+      {
+        "name": "Sketch",
+        "url": "https://sketch.com",
+        "icon": ""
+      },
+      {
+        "name": "Adobe XD",
+        "url": "https://adobe.com/products/xd",
+        "icon": ""
+      },
+      {
+        "name": "InVision",
+        "url": "https://invisionapp.com",
+        "icon": ""
+      },
+      {
+        "name": "Zeplin",
+        "url": "https://zeplin.io",
+        "icon": ""
+      },
+      {
+        "name": "Framer",
+        "url": "https://framer.com",
+        "icon": ""
+      },
+      {
+        "name": "Webflow",
+        "url": "https://webflow.com",
+        "icon": ""
+      },
+      {
+        "name": "Squarespace",
+        "url": "https://squarespace.com",
+        "icon": ""
+      },
+      {
+        "name": "Wix",
+        "url": "https://wix.com",
+        "icon": ""
+      },
+      {
+        "name": "WordPress",
+        "url": "https://wordpress.com",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "name": "Cloud Hub - 云中心",
+    "sites": [
+      {
+        "name": "AWS",
+        "url": "https://aws.amazon.com",
+        "icon": ""
+      },
+      {
+        "name": "Google Cloud",
+        "url": "https://cloud.google.com",
+        "icon": ""
+      },
+      {
+        "name": "Azure",
+        "url": "https://azure.microsoft.com",
+        "icon": ""
+      },
+      {
+        "name": "阿里云",
+        "url": "https://aliyun.com",
+        "icon": ""
+      },
+      {
+        "name": "腾讯云",
+        "url": "https://cloud.tencent.com",
+        "icon": ""
+      },
+      {
+        "name": "华为云",
+        "url": "https://huaweicloud.com",
+        "icon": ""
+      },
+      {
+        "name": "百度云",
+        "url": "https://cloud.baidu.com",
+        "icon": ""
+      },
+      {
+        "name": "Vercel",
+        "url": "https://vercel.com",
+        "icon": ""
+      },
+      {
+        "name": "Netlify",
+        "url": "https://netlify.com",
+        "icon": ""
+      },
+      {
+        "name": "Heroku",
+        "url": "https://heroku.com",
+        "icon": ""
+      },
+      {
+        "name": "DigitalOcean",
+        "url": "https://digitalocean.com",
+        "icon": ""
+      },
+      {
+        "name": "Linode",
+        "url": "https://linode.com",
+        "icon": ""
+      },
+      {
+        "name": "Vultr",
+        "url": "https://vultr.com",
+        "icon": ""
+      },
+      {
+        "name": "Cloudflare",
+        "url": "https://cloudflare.com",
+        "icon": ""
+      },
+      {
+        "name": "Fastly",
+        "url": "https://fastly.com",
+        "icon": ""
+      },
+      {
+        "name": "KeyCDN",
+        "url": "https://keycdn.com",
+        "icon": ""
+      },
+      {
+        "name": "BunnyCDN",
+        "url": "https://bunny.net",
+        "icon": ""
+      },
+      {
+        "name": "StackPath",
+        "url": "https://stackpath.com",
+        "icon": ""
+      },
+      {
+        "name": "MaxCDN",
+        "url": "https://maxcdn.com",
+        "icon": ""
+      },
+      {
+        "name": "Incapsula",
+        "url": "https://incapsula.com",
+        "icon": ""
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com",
+        "icon": ""
+      },
+      {
+        "name": "Dropbox",
+        "url": "https://dropbox.com",
+        "icon": ""
+      },
+      {
+        "name": "OneDrive",
+        "url": "https://onedrive.live.com",
+        "icon": ""
+      },
+      {
+        "name": "iCloud",
+        "url": "https://icloud.com",
+        "icon": ""
+      },
+      {
+        "name": "Box",
+        "url": "https://box.com",
+        "icon": ""
+      },
+      {
+        "name": "百度网盘",
+        "url": "https://pan.baidu.com",
+        "icon": ""
+      },
+      {
+        "name": "阿里云盘",
+        "url": "https://aliyundrive.com",
+        "icon": ""
+      },
+      {
+        "name": "天翼云盘",
+        "url": "https://cloud.189.cn",
+        "icon": ""
+      },
+      {
+        "name": "腾讯微云",
+        "url": "https://weiyun.com",
+        "icon": ""
+      },
+      {
+        "name": "坚果云",
+        "url": "https://jianguoyun.com",
+        "icon": ""
+      },
+      {
+        "name": "115网盘",
+        "url": "https://115.com",
+        "icon": ""
+      },
+      {
+        "name": "蓝奏云",
+        "url": "https://lanzoui.com",
+        "icon": ""
+      },
+      {
+        "name": "MEGA",
+        "url": "https://mega.nz",
+        "icon": ""
+      },
+      {
+        "name": "pCloud",
+        "url": "https://pcloud.com",
+        "icon": ""
+      },
+      {
+        "name": "Sync.com",
+        "url": "https://sync.com",
+        "icon": ""
+      },
+      {
+        "name": "MediaFire",
+        "url": "https://mediafire.com",
+        "icon": ""
+      },
+      {
+        "name": "4shared",
+        "url": "https://4shared.com",
+        "icon": ""
+      },
+      {
+        "name": "Degoo",
+        "url": "https://degoo.com",
+        "icon": ""
+      },
+      {
+        "name": "Internxt",
+        "url": "https://internxt.com",
+        "icon": ""
+      },
+      {
+        "name": "Tresorit",
+        "url": "https://tresorit.com",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "name": "App Hub - 应用中心",
+    "sites": [
+      {
+        "name": "App Store",
+        "url": "https://apps.apple.com",
+        "icon": ""
+      },
+      {
+        "name": "Google Play",
+        "url": "https://play.google.com",
+        "icon": ""
+      },
+      {
+        "name": "华为应用市场",
+        "url": "https://appgallery.huawei.com",
+        "icon": ""
+      },
+      {
+        "name": "小米应用商店",
+        "url": "https://app.mi.com",
+        "icon": ""
+      },
+      {
+        "name": "OPPO软件商店",
+        "url": "https://store.oppomobile.com",
+        "icon": ""
+      },
+      {
+        "name": "vivo应用商店",
+        "url": "https://store.vivo.com.cn",
+        "icon": ""
+      },
+      {
+        "name": "腾讯应用宝",
+        "url": "https://sj.qq.com",
+        "icon": ""
+      },
+      {
+        "name": "360手机助手",
+        "url": "https://sj.360.cn",
+        "icon": ""
+      },
+      {
+        "name": "百度手机助手",
+        "url": "https://shouji.baidu.com",
+        "icon": ""
+      },
+      {
+        "name": "豌豆荚",
+        "url": "https://wandoujia.com",
+        "icon": ""
+      },
+      {
+        "name": "Steam",
+        "url": "https://store.steampowered.com",
+        "icon": ""
+      },
+      {
+        "name": "Epic Games",
+        "url": "https://store.epicgames.com",
+        "icon": ""
+      },
+      {
+        "name": "Microsoft Store",
+        "url": "https://apps.microsoft.com",
+        "icon": ""
+      },
+      {
+        "name": "Chrome应用商店",
+        "url": "https://chrome.google.com/webstore",
+        "icon": ""
+      },
+      {
+        "name": "Firefox附加组件",
+        "url": "https://addons.mozilla.org",
+        "icon": ""
+      },
+      {
+        "name": "Adobe Creative Cloud",
+        "url": "https://adobe.com/creativecloud",
+        "icon": ""
+      },
+      {
+        "name": "Setapp",
+        "url": "https://setapp.com",
+        "icon": ""
+      },
+      {
+        "name": "APKPure",
+        "url": "https://apkpure.com",
+        "icon": ""
+      },
+      {
+        "name": "F-Droid",
+        "url": "https://f-droid.org",
+        "icon": ""
+      },
+      {
+        "name": "软件下载中心",
+        "url": "https://pc.qq.com",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "name": "Social Media - 社交媒体",
+    "sites": [
+      {
+        "name": "Facebook",
+        "url": "https://facebook.com",
+        "icon": ""
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com",
+        "icon": ""
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com",
+        "icon": ""
+      },
+      {
+        "name": "Snapchat",
+        "url": "https://snapchat.com",
+        "icon": ""
+      },
+      {
+        "name": "Mastodon",
+        "url": "https://mastodon.social",
+        "icon": ""
+      },
+      {
+        "name": "微博",
+        "url": "https://weibo.com",
+        "icon": ""
+      },
+      {
+        "name": "豆瓣",
+        "url": "https://douban.com",
+        "icon": ""
+      },
+      {
+        "name": "小红书",
+        "url": "https://xiaohongshu.com",
+        "icon": ""
+      },
+      {
+        "name": "B站",
+        "url": "https://bilibili.com",
+        "icon": ""
+      },
+      {
+        "name": "快手",
+        "url": "https://kuaishou.com",
+        "icon": ""
+      },
+      {
+        "name": "抖音",
+        "url": "https://douyin.com",
+        "icon": ""
+      },
+      {
+        "name": "WhatsApp",
+        "url": "https://web.whatsapp.com",
+        "icon": ""
+      },
+      {
+        "name": "Telegram",
+        "url": "https://web.telegram.org",
+        "icon": ""
+      },
+      {
+        "name": "Discord",
+        "url": "https://discord.com/app",
+        "icon": ""
+      },
+      {
+        "name": "Slack",
+        "url": "https://slack.com",
+        "icon": ""
+      },
+      {
+        "name": "微信",
+        "url": "https://wx.qq.com",
+        "icon": ""
+      },
+      {
+        "name": "QQ",
+        "url": "https://im.qq.com",
+        "icon": ""
+      },
+      {
+        "name": "Skype",
+        "url": "https://web.skype.com",
+        "icon": ""
+      },
+      {
+        "name": "Teams",
+        "url": "https://teams.microsoft.com",
+        "icon": ""
+      },
+      {
+        "name": "钉钉",
+        "url": "https://dingtalk.com",
+        "icon": ""
+      },
+      {
+        "name": "企业微信",
+        "url": "https://work.weixin.qq.com",
+        "icon": ""
+      },
+      {
+        "name": "飞书",
+        "url": "https://feishu.cn",
+        "icon": ""
+      },
+      {
+        "name": "Zoom",
+        "url": "https://zoom.us",
+        "icon": ""
+      },
+      {
+        "name": "Signal",
+        "url": "https://signal.org",
+        "icon": ""
+      },
+      {
+        "name": "Viber",
+        "url": "https://viber.com",
+        "icon": ""
+      },
+      {
+        "name": "Line",
+        "url": "https://line.me",
+        "icon": ""
+      },
+      {
+        "name": "KakaoTalk",
+        "url": "https://www.kakaocorp.com",
+        "icon": ""
+      },
+      {
+        "name": "WeChat Work",
+        "url": "https://work.weixin.qq.com",
+        "icon": ""
+      },
+      {
+        "name": "Lark",
+        "url": "https://larksuite.com",
+        "icon": ""
+      },
+      {
+        "name": "Google Meet",
+        "url": "https://meet.google.com",
+        "icon": ""
+      },
+      {
+        "name": "Jitsi Meet",
+        "url": "https://meet.jit.si",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "name": "Media Hub - 媒体中心",
+    "sites": [
+      {
+        "name": "Netflix",
+        "url": "https://netflix.com",
+        "icon": ""
+      },
+      {
+        "name": "Spotify",
+        "url": "https://spotify.com",
+        "icon": ""
+      },
+      {
+        "name": "Twitch",
+        "url": "https://twitch.tv",
+        "icon": ""
+      },
+      {
+        "name": "Apple Music",
+        "url": "https://music.apple.com",
+        "icon": ""
+      },
+      {
+        "name": "Amazon Prime",
+        "url": "https://primevideo.com",
+        "icon": ""
+      },
+      {
+        "name": "Disney+",
+        "url": "https://disneyplus.com",
+        "icon": ""
+      },
+      {
+        "name": "HBO Max",
+        "url": "https://hbomax.com",
+        "icon": ""
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com",
+        "icon": ""
+      },
+      {
+        "name": "Pandora",
+        "url": "https://pandora.com",
+        "icon": ""
+      },
+      {
+        "name": "Tidal",
+        "url": "https://tidal.com",
+        "icon": ""
+      },
+      {
+        "name": "Vimeo",
+        "url": "https://vimeo.com",
+        "icon": ""
+      },
+      {
+        "name": "Dailymotion",
+        "url": "https://dailymotion.com",
+        "icon": ""
+      },
+      {
+        "name": "TikTok",
+        "url": "https://tiktok.com",
+        "icon": ""
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com",
+        "icon": ""
+      },
+      {
+        "name": "Tumblr",
+        "url": "https://tumblr.com",
+        "icon": ""
+      },
+      {
+        "name": "Reddit",
+        "url": "https://reddit.com",
+        "icon": ""
+      },
+      {
+        "name": "Pinterest",
+        "url": "https://pinterest.com",
+        "icon": ""
+      },
+      {
+        "name": "Flickr",
+        "url": "https://flickr.com",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "name": "Private Tracker - 私人种子站",
+    "sites": [
+      {
+        "name": "PT站导航",
+        "url": "https://pt.sjtu.edu.cn",
+        "icon": ""
+      },
+      {
+        "name": "HDChina",
+        "url": "https://hdchina.org",
+        "icon": ""
+      },
+      {
+        "name": "CHDBits",
+        "url": "https://chdbits.co",
+        "icon": ""
+      },
+      {
+        "name": "TTG",
+        "url": "https://totheglory.im",
+        "icon": ""
+      },
+      {
+        "name": "HDHome",
+        "url": "https://hdhome.org",
+        "icon": ""
+      },
+      {
+        "name": "HDTime",
+        "url": "https://hdtime.org",
+        "icon": ""
+      },
+      {
+        "name": "HDArea",
+        "url": "https://hdarea.co",
+        "icon": ""
+      },
+      {
+        "name": "HDStreet",
+        "url": "https://hdstreet.club",
+        "icon": ""
+      },
+      {
+        "name": "HDTorrents",
+        "url": "https://hd-torrents.org",
+        "icon": ""
+      },
+      {
+        "name": "IPTorrents",
+        "url": "https://iptorrents.com",
+        "icon": ""
+      },
+      {
+        "name": "TorrentLeech",
+        "url": "https://torrentleech.org",
+        "icon": ""
+      },
+      {
+        "name": "PrivateHD",
+        "url": "https://privatehd.to",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "name": "Finance & Payments - 金融与支付",
+    "sites": [
+      {
+        "name": "中国工商银行",
+        "url": "https://icbc.com.cn",
+        "icon": ""
+      },
+      {
+        "name": "中国建设银行",
+        "url": "https://ccb.com",
+        "icon": ""
+      },
+      {
+        "name": "中国农业银行",
+        "url": "https://abchina.com",
+        "icon": ""
+      },
+      {
+        "name": "中国银行",
+        "url": "https://boc.cn",
+        "icon": ""
+      },
+      {
+        "name": "交通银行",
+        "url": "https://bankcomm.com",
+        "icon": ""
+      },
+      {
+        "name": "招商银行",
+        "url": "https://cmbchina.com",
+        "icon": ""
+      },
+      {
+        "name": "中国邮政储蓄银行",
+        "url": "https://psbc.com",
+        "icon": ""
+      },
+      {
+        "name": "中信银行",
+        "url": "https://citicbank.com",
+        "icon": ""
+      },
+      {
+        "name": "中国光大银行",
+        "url": "https://cebbank.com",
+        "icon": ""
+      },
+      {
+        "name": "中国民生银行",
+        "url": "https://cmbc.com.cn",
+        "icon": ""
+      },
+      {
+        "name": "平安银行",
+        "url": "https://bank.pingan.com",
+        "icon": ""
+      },
+      {
+        "name": "华夏银行",
+        "url": "https://hxb.com.cn",
+        "icon": ""
+      },
+      {
+        "name": "广发银行",
+        "url": "https://cgbchina.com.cn",
+        "icon": ""
+      },
+      {
+        "name": "兴业银行",
+        "url": "https://cib.com.cn",
+        "icon": ""
+      },
+      {
+        "name": "浦发银行",
+        "url": "https://spdb.com.cn",
+        "icon": ""
+      },
+      {
+        "name": "北京银行",
+        "url": "https://bankofbeijing.com.cn",
+        "icon": ""
+      },
+      {
+        "name": "上海银行",
+        "url": "https://bankofshanghai.com",
+        "icon": ""
+      },
+      {
+        "name": "江苏银行",
+        "url": "https://jsbchina.cn",
+        "icon": ""
+      },
+      {
+        "name": "南京银行",
+        "url": "https://njcb.com.cn",
+        "icon": ""
+      },
+      {
+        "name": "宁波银行",
+        "url": "https://nbcb.com.cn",
+        "icon": ""
+      },
+      {
+        "name": "支付宝",
+        "url": "https://alipay.com",
+        "icon": ""
+      },
+      {
+        "name": "微信支付",
+        "url": "https://pay.weixin.qq.com",
+        "icon": ""
+      },
+      {
+        "name": "网商银行",
+        "url": "https://mybank.cn",
+        "icon": ""
+      },
+      {
+        "name": "微众银行",
+        "url": "https://webank.com",
+        "icon": ""
+      },
+      {
+        "name": "京东钱包",
+        "url": "https://jr.jd.com",
+        "icon": ""
+      },
+      {
+        "name": "云闪付",
+        "url": "https://unionpay.com",
+        "icon": ""
+      },
+      {
+        "name": "度小满金融",
+        "url": "https://duxiaoman.com",
+        "icon": ""
+      },
+      {
+        "name": "蚂蚁财富",
+        "url": "https://fund.ant.group",
+        "icon": ""
+      },
+      {
+        "name": "天弘基金",
+        "url": "https://thfund.com.cn",
+        "icon": ""
+      },
+      {
+        "name": "理财通",
+        "url": "https://licaitong.qq.com",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "name": "E-Commerce - 电商购物",
+    "sites": [
+      {
+        "name": "Amazon",
+        "url": "https://amazon.com",
+        "icon": ""
+      },
+      {
+        "name": "淘宝",
+        "url": "https://taobao.com",
+        "icon": ""
+      },
+      {
+        "name": "天猫",
+        "url": "https://tmall.com",
+        "icon": ""
+      },
+      {
+        "name": "京东",
+        "url": "https://jd.com",
+        "icon": ""
+      },
+      {
+        "name": "拼多多",
+        "url": "https://pinduoduo.com",
+        "icon": ""
+      },
+      {
+        "name": "美团",
+        "url": "https://meituan.com",
+        "icon": ""
+      },
+      {
+        "name": "饿了么",
+        "url": "https://ele.me",
+        "icon": ""
+      },
+      {
+        "name": "美团外卖",
+        "url": "https://waimai.meituan.com",
+        "icon": ""
+      },
+      {
+        "name": "eBay",
+        "url": "https://ebay.com",
+        "icon": ""
+      },
+      {
+        "name": "AliExpress",
+        "url": "https://aliexpress.com",
+        "icon": ""
+      },
+      {
+        "name": "Shopify",
+        "url": "https://shopify.com",
+        "icon": ""
+      },
+      {
+        "name": "WooCommerce",
+        "url": "https://woocommerce.com",
+        "icon": ""
+      },
+      {
+        "name": "Magento",
+        "url": "https://magento.com",
+        "icon": ""
+      },
+      {
+        "name": "Shopee",
+        "url": "https://shopee.com",
+        "icon": ""
+      },
+      {
+        "name": "Lazada",
+        "url": "https://lazada.com",
+        "icon": ""
+      },
+      {
+        "name": "Wish",
+        "url": "https://wish.com",
+        "icon": ""
+      },
+      {
+        "name": "Etsy",
+        "url": "https://etsy.com",
+        "icon": ""
+      },
+      {
+        "name": "MercadoLibre",
+        "url": "https://mercadolibre.com",
+        "icon": ""
+      },
+      {
+        "name": "Flipkart",
+        "url": "https://flipkart.com",
+        "icon": ""
+      },
+      {
+        "name": "Rakuten",
+        "url": "https://rakuten.com",
+        "icon": ""
+      },
+      {
+        "name": "Zalando",
+        "url": "https://zalando.com",
+        "icon": ""
+      },
+      {
+        "name": "ASOS",
+        "url": "https://asos.com",
+        "icon": ""
+      },
+      {
+        "name": "H&M",
+        "url": "https://hm.com",
+        "icon": ""
+      },
+      {
+        "name": "Zara",
+        "url": "https://zara.com",
+        "icon": ""
+      },
+      {
+        "name": "Uniqlo",
+        "url": "https://uniqlo.com",
+        "icon": ""
+      },
+      {
+        "name": "Nike",
+        "url": "https://nike.com",
+        "icon": ""
+      },
+      {
+        "name": "Adidas",
+        "url": "https://adidas.com",
+        "icon": ""
+      },
+      {
+        "name": "Puma",
+        "url": "https://puma.com",
+        "icon": ""
+      },
+      {
+        "name": "Under Armour",
+        "url": "https://underarmour.com",
+        "icon": ""
+      },
+      {
+        "name": "New Balance",
+        "url": "https://newbalance.com",
+        "icon": ""
+      },
+      {
+        "name": "Converse",
+        "url": "https://converse.com",
+        "icon": ""
+      },
+      {
+        "name": "Vans",
+        "url": "https://vans.com",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "name": "Delivery Services - 快递物流",
+    "sites": [
+      {
+        "name": "顺丰速运",
+        "url": "https://sf-express.com",
+        "icon": ""
+      },
+      {
+        "name": "中通快递",
+        "url": "https://zto.com",
+        "icon": ""
+      },
+      {
+        "name": "圆通速递",
+        "url": "https://yto.net.cn",
+        "icon": ""
+      },
+      {
+        "name": "申通快递",
+        "url": "https://sto.cn",
+        "icon": ""
+      },
+      {
+        "name": "韵达快递",
+        "url": "https://yunda.cn",
+        "icon": ""
+      },
+      {
+        "name": "百世快递",
+        "url": "https://best-inc.cn",
+        "icon": ""
+      },
+      {
+        "name": "极兔速递",
+        "url": "https://jtexpress.cn",
+        "icon": ""
+      },
+      {
+        "name": "京东物流",
+        "url": "https://jdl.com",
+        "icon": ""
+      },
+      {
+        "name": "菜鸟物流",
+        "url": "https://cainiao.com",
+        "icon": ""
+      },
+      {
+        "name": "德邦快递",
+        "url": "https://deppon.com",
+        "icon": ""
+      },
+      {
+        "name": "天天快递",
+        "url": "https://ttkdex.com",
+        "icon": ""
+      },
+      {
+        "name": "宅急送",
+        "url": "https://zjs.com.cn",
+        "icon": ""
+      },
+      {
+        "name": "EMS中国邮政",
+        "url": "https://ems.com.cn",
+        "icon": ""
+      },
+      {
+        "name": "速尔快递",
+        "url": "https://sure56.com",
+        "icon": ""
+      },
+      {
+        "name": "跨越速运",
+        "url": "https://kysy.com.cn",
+        "icon": ""
+      },
+      {
+        "name": "安能物流",
+        "url": "https://ane56.com",
+        "icon": ""
+      },
+      {
+        "name": "壹米滴答",
+        "url": "https://yimidida.com",
+        "icon": ""
+      },
+      {
+        "name": "快递100",
+        "url": "https://kuaidi100.com",
+        "icon": ""
+      },
+      {
+        "name": "快递鸟",
+        "url": "https://kdniao.com",
+        "icon": ""
+      },
+      {
+        "name": "17track",
+        "url": "https://17track.net",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "name": "News & Information - 新闻资讯",
+    "sites": [
+      {
+        "name": "新华网",
+        "url": "https://xinhuanet.com",
+        "icon": ""
+      },
+      {
+        "name": "人民网",
+        "url": "https://people.com.cn",
+        "icon": ""
+      },
+      {
+        "name": "央视网",
+        "url": "https://cctv.com",
+        "icon": ""
+      },
+      {
+        "name": "中国新闻网",
+        "url": "https://chinanews.com",
+        "icon": ""
+      },
+      {
+        "name": "澎湃新闻",
+        "url": "https://thepaper.cn",
+        "icon": ""
+      },
+      {
+        "name": "界面新闻",
+        "url": "https://jiemian.com",
+        "icon": ""
+      },
+      {
+        "name": "财新网",
+        "url": "https://caixin.com",
+        "icon": ""
+      },
+      {
+        "name": "36氪",
+        "url": "https://36kr.com",
+        "icon": ""
+      },
+      {
+        "name": "虎嗅网",
+        "url": "https://huxiu.com",
+        "icon": ""
+      },
+      {
+        "name": "钛媒体",
+        "url": "https://tmtpost.com",
+        "icon": ""
+      },
+      {
+        "name": "凤凰网",
+        "url": "https://ifeng.com",
+        "icon": ""
+      },
+      {
+        "name": "新浪新闻",
+        "url": "https://news.sina.com.cn",
+        "icon": ""
+      },
+      {
+        "name": "网易新闻",
+        "url": "https://news.163.com",
+        "icon": ""
+      },
+      {
+        "name": "腾讯新闻",
+        "url": "https://news.qq.com",
+        "icon": ""
+      },
+      {
+        "name": "搜狐新闻",
+        "url": "https://news.sohu.com",
+        "icon": ""
+      },
+      {
+        "name": "今日头条",
+        "url": "https://toutiao.com",
+        "icon": ""
+      },
+      {
+        "name": "环球网",
+        "url": "https://huanqiu.com",
+        "icon": ""
+      },
+      {
+        "name": "观察者网",
+        "url": "https://guancha.cn",
+        "icon": ""
+      },
+      {
+        "name": "第一财经",
+        "url": "https://yicai.com",
+        "icon": ""
+      },
+      {
+        "name": "财经网",
+        "url": "https://caijing.com.cn",
+        "icon": ""
+      },
+      {
+        "name": "BBC",
+        "url": "https://bbc.com",
+        "icon": ""
+      },
+      {
+        "name": "CNN",
+        "url": "https://cnn.com",
+        "icon": ""
+      },
+      {
+        "name": "Reuters",
+        "url": "https://reuters.com",
+        "icon": ""
+      },
+      {
+        "name": "The Guardian",
+        "url": "https://theguardian.com",
+        "icon": ""
+      },
+      {
+        "name": "New York Times",
+        "url": "https://nytimes.com",
+        "icon": ""
+      },
+      {
+        "name": "Washington Post",
+        "url": "https://washingtonpost.com",
+        "icon": ""
+      },
+      {
+        "name": "Wall Street Journal",
+        "url": "https://wsj.com",
+        "icon": ""
+      },
+      {
+        "name": "Financial Times",
+        "url": "https://ft.com",
+        "icon": ""
+      },
+      {
+        "name": "Bloomberg",
+        "url": "https://bloomberg.com",
+        "icon": ""
+      },
+      {
+        "name": "Forbes",
+        "url": "https://forbes.com",
+        "icon": ""
+      },
+      {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com",
+        "icon": ""
+      },
+      {
+        "name": "Wired",
+        "url": "https://wired.com",
+        "icon": ""
+      },
+      {
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com",
+        "icon": ""
+      },
+      {
+        "name": "The Verge",
+        "url": "https://theverge.com",
+        "icon": ""
+      },
+      {
+        "name": "Engadget",
+        "url": "https://engadget.com",
+        "icon": ""
+      },
+      {
+        "name": "Mashable",
+        "url": "https://mashable.com",
+        "icon": ""
+      },
+      {
+        "name": "Gizmodo",
+        "url": "https://gizmodo.com",
+        "icon": ""
+      },
+      {
+        "name": "CNET",
+        "url": "https://cnet.com",
+        "icon": ""
+      },
+      {
+        "name": "ZDNet",
+        "url": "https://zdnet.com",
+        "icon": ""
+      },
+      {
+        "name": "VentureBeat",
+        "url": "https://venturebeat.com",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "name": "Other - 其他",
+    "sites": [
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com",
+        "icon": "https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico"
+      },
+      {
+        "name": "Logseq",
+        "url": "https://logseq.com",
+        "icon": ""
+      },
+      {
+        "name": "Bear",
+        "url": "https://bear.app",
+        "icon": ""
+      },
+      {
+        "name": "Ulysses",
+        "url": "https://ulysses.app",
+        "icon": ""
+      },
+      {
+        "name": "Scrivener",
+        "url": "https://literatureandlatte.com",
+        "icon": ""
+      },
+      {
+        "name": "Typora",
+        "url": "https://typora.io",
+        "icon": ""
+      },
+      {
+        "name": "Mark Text",
+        "url": "https://marktext.app",
+        "icon": ""
+      },
+      {
+        "name": "Zettlr",
+        "url": "https://zettlr.com",
+        "icon": ""
+      },
+      {
+        "name": "Joplin",
+        "url": "https://joplinapp.org",
+        "icon": ""
+      },
+      {
+        "name": "Standard Notes",
+        "url": "https://standardnotes.com",
+        "icon": ""
+      },
+      {
+        "name": "Simplenote",
+        "url": "https://simplenote.com",
+        "icon": ""
+      }
+    ]
+  }
+]
