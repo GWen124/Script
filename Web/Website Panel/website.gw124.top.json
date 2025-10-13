@@ -919,7 +919,12 @@
         "icon": ""
       },
       {
-        "name": "软件下载中心",
+        "name": "Cursor",
+        "url": "https://www.cursor.com/",
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/AI/Cursor.png"
+      },
+      {
+        "name": "腾讯软件中心",
         "url": "https://pc.qq.com",
         "icon": ""
       }
