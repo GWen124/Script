@@ -1191,51 +1191,41 @@
       {
         "name": "PT站导航",
         "url": "https://pt.sjtu.edu.cn",
-        "icon": ""
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/PT/ecustpt.png"
       },
       {
         "name": "HDChina",
         "url": "https://hdchina.org",
-        "icon": ""
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/PT/HDChina.png"
       },
       {
         "name": "CHDBits",
         "url": "https://chdbits.co",
-        "icon": ""
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/PT/CHDBits.png"
       },
       {
         "name": "TTG",
         "url": "https://totheglory.im",
-        "icon": ""
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/PT/TTG.png"
       },
       {
         "name": "HDHome",
         "url": "https://hdhome.org",
-        "icon": ""
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/PT/HDHome.png"
       },
       {
         "name": "HDTime",
         "url": "https://hdtime.org",
-        "icon": ""
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/PT/HDTime.png"
       },
       {
         "name": "HDArea",
         "url": "https://hdarea.co",
-        "icon": ""
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/PT/HDArea.png"
       },
       {
         "name": "HDStreet",
         "url": "https://hdstreet.club",
-        "icon": ""
-      },
-      {
-        "name": "HDTorrents",
-        "url": "https://hd-torrents.org",
-        "icon": ""
-      },
-      {
-        "name": "IPTorrents",
-        "url": "https://iptorrents.com",
         "icon": ""
       },
       {
@@ -1314,11 +1304,6 @@
         "icon": ""
       },
       {
-        "name": "广发银行",
-        "url": "https://cgbchina.com.cn",
-        "icon": ""
-      },
-      {
         "name": "兴业银行",
         "url": "https://cib.com.cn",
         "icon": ""
@@ -1346,11 +1331,6 @@
       {
         "name": "南京银行",
         "url": "https://njcb.com.cn",
-        "icon": ""
-      },
-      {
-        "name": "宁波银行",
-        "url": "https://nbcb.com.cn",
         "icon": ""
       },
       {
