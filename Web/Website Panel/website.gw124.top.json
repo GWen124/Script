@@ -1151,7 +1151,7 @@
     ]
   },
   {
-    "name": "Private Tracker - 私人种子站",
+    "name": "PT Sites - 私有PT站",
     "sites": [
       {
         "name": "PT站导航",
@@ -1536,7 +1536,7 @@
     ]
   },
   {
-    "name": "Delivery Services - 快递物流",
+    "name": "Delivery - 快递",
     "sites": [
       {
         "name": "顺丰速运",
@@ -1641,7 +1641,7 @@
     ]
   },
   {
-    "name": "News & Information - 新闻资讯",
+    "name": "News Hub - 新闻资讯",
     "sites": [
       {
         "name": "新华网",
