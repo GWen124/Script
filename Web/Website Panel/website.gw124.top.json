@@ -104,11 +104,6 @@
         "icon": ""
       },
       {
-        "name": "Stable Diffusion",
-        "url": "https://stablediffusionweb.com",
-        "icon": ""
-      },
-      {
         "name": "Runway",
         "url": "https://runwayml.com",
         "icon": ""
@@ -176,11 +171,6 @@
       {
         "name": "RunwayML",
         "url": "https://runwayml.com",
-        "icon": ""
-      },
-      {
-        "name": "Stable Video Diffusion",
-        "url": "https://stability.ai",
         "icon": ""
       },
       {
