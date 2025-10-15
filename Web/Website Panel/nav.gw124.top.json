@@ -524,6 +524,11 @@
     "name": "Dev Tools - 开发工具",
     "sites": [
       {
+        "name": "GitHub",
+        "url": "https://github.com",
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/Project Management & To-do List/GitHub_A.png"
+      },
+      {
         "name": "VS Code",
         "url": "https://code.visualstudio.com",
         "icon": ""
