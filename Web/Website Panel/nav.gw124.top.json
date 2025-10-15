@@ -534,6 +534,11 @@
         "icon": ""
       },
       {
+        "name": "Cursor",
+        "url": "https://www.cursor.com",
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/AI/Cursor.png"
+      },
+      {
         "name": "Codepen",
         "url": "https://codepen.io",
         "icon": ""
