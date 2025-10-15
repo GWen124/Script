@@ -184,4 +184,16 @@ externalConfig:
   url: ""
   # 回退策略：当外部配置不可用时，自动使用本地 config.ts
   # 注意：外部配置拉取失败时，构建过程会自动回退到本地配置，无需手动干预
-  
+
+# 外部项目配置
+externalProjectConfig:
+  # 是否启用外部项目配置
+  # true: 构建时从外部 URL 拉取项目配置（会覆盖 config.yml 中的配置）
+  # false: 使用本地 config.yml 中的配置
+  enabled: false
+  # 外部项目配置文件的 URL（需要返回 YAML 格式的项目配置）
+  # 示例：https://example.com/project-config.yml
+  # 示例：https://gist.githubusercontent.com/username/xxx/raw/project-config.yml
+  url: ""
+  # 回退策略：当外部项目配置不可用时，自动使用本地 config.yml
+  # 注意：外部项目配置拉取失败时，构建过程会自动回退到本地配置，无需手动干预
