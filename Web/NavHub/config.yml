@@ -1,0 +1,187 @@
+# NavHub 配置文件
+# 修改此文件来自定义网站设置
+
+# 部署配置
+deployment:
+  # 自定义域名（用于 GitHub Pages CNAME 文件）
+  # 填写域名: 部署时自动创建 CNAME 文件，使用指定的自定义域名
+  # 留空 (""): 不创建 CNAME 文件，保留 GitHub Pages 中手动配置的域名设置
+  # 注意：如果留空但 GitHub Pages 中也没有配置域名，则使用默认域名 (username.github.io/repo-name)
+  customDomain: "navhub.gw124.top"
+
+# 网页标题
+pageTitle: "你所喜爱的网站，一站汇聚。"
+
+# 标签页图标配置
+favicon:
+  # 图标路径或URL，留空表示使用默认图标
+  # 本地图标示例: favicon.ico 或 images/icon.png
+  # 网络图标示例: https://example.com/favicon.ico
+  icon: "https://image.gw124.top/Avatar/A62B54A6-13B8-4BB8-9AAA-75E3342388BB_1_105_c.jpeg"
+
+# 页面主标题文字
+pageQuote: "发现 · 收藏 · 出发"
+
+# 页面标题显示配置
+pageTitleConfig:
+  # 是否显示页面主标题
+  # true: 显示页面主标题
+  # false: 隐藏页面主标题
+  hideQuote: true
+
+# 时间日期模块配置
+timeDate:
+  # 是否显示时间日期模块
+  # true: 显示时间日期模块
+  # false: 隐藏时间日期模块，标题居中显示
+  enabled: true
+
+# Footer 信息配置
+footer:
+  websiteText: "NAV.GW124.TOP"
+  websiteUrl: "https://nav.gw124.top/"
+  # 注意：作者信息不可配置，始终保持默认值
+  
+  # 第二行链接配置（可选）
+  secondLine:
+    # 是否显示第二行
+    enabled: true
+    # 所有链接配置在 public/footer-links.json 中管理
+    # 构建和运行时都从该文件读取，保证配置统一
+
+# 版权信息配置
+copyright:
+  # 版权开始日期，格式：YYYY-MM-DD
+  # 示例：2025-01-01 或 2025-12-31
+  startDate: "2025-10-01"
+  # 是否自动计算年份范围
+  # true: 根据当前日期自动计算显示格式
+  # false: 始终显示开始年份
+  autoRange: true
+
+# 背景图片配置
+background:
+  # Bing 轮播背景开关
+  # true: 启用 Bing 每日图片轮播背景（优先级高于自定义背景）
+  # false: 使用自定义背景图片
+  bingWallpaper: false
+  # 图片或视频路径/URL，留空表示无背景
+  # 本地图片示例: bg.jpg 或 images/background.png
+  # 网络图片示例: https://example.com/image.jpg
+  # 本地视频示例: video.mp4 或 videos/background.mp4
+  # 网络视频示例: https://example.com/video.mp4
+  # 支持的视频格式: mp4, webm, ogg, avi, mov, wmv, flv, mkv
+  image: "https://image.gw124.top/Video/1.mp4"
+  # Bing轮播模式选择
+  # "localFirst": 先显示本地背景，30秒后切换到Bing轮播
+  # "direct": 直接显示Bing轮播，不显示本地背景
+  bingMode: "localFirst"
+
+# 字体颜色配置
+colors:
+  # 自动变色开关
+  # true: 根据背景亮度自动切换黑白文字（优先级最高）
+  # false: 使用手动设置的颜色
+  autoColor: true
+  # 手动颜色设置（仅在 autoColor: false 时生效）
+  manual:
+    # 1. 头部区域颜色（主标题、时间、日期、竖线分割线、搜索栏图标）
+    header: "#000000"
+    # 2. 中部区域颜色（网站分类标题、网站卡片标题）
+    cardTitle: "#000000"
+    # 3. Footer区域颜色（版权信息、链接文字、分割线）
+    footer: "#000000"
+
+# 字体配置
+fonts:
+  # 头部区域字体（主标题、时间、日期、搜索栏）
+  header:
+    # A字体：汉字优先级高（中文、日文、韩文等）
+    # 本地路径示例: fonts/chinese.ttf 或 ./fonts/custom.woff2
+    # 远程URL示例: https://github.com/GWen124/HomePage/blob/main/public/fonts/brand.ttf
+    # 留空使用系统默认字体
+    fontA: "fonts/AnJingChenXinShouJinTi.ttf"
+    # B字体：英文和数字优先级高（英文、数字、符号等）
+    # 留空则只使用A字体
+    # 示例：使用Google Fonts的Roboto字体
+    fontB: "fonts/brand.ttf"
+  
+  # 中部区域字体（网站分类标题、网站卡片标题）
+  content:
+    # 分组标题字体
+    category:
+      # A字体：汉字优先级高
+      fontA: "fonts/SanJiZhengYaHei-ZhongCu.ttf"
+      # B字体：英文和数字优先级高
+      fontB: ""
+    # 网站卡片标题字体
+    site:
+      # A字体：汉字优先级高
+      fontA: "fonts/SanJiZhengYaHei-Xi.ttf"
+      # B字体：英文和数字优先级高
+      fontB: ""
+  
+  # Footer区域字体（版权信息、链接文字）
+  footer:
+    # A字体：汉字优先级高
+    fontA: "fonts/brand.ttf"
+    # B字体：英文和数字优先级高
+    fontB: ""
+  
+  # 侧边栏字体（分组名称、网站数量）
+  sidebar:
+    # A字体：汉字优先级高
+    fontA: "fonts/SanJiZhengYaHei-ZhongCu.ttf"
+    # B字体：英文和数字优先级高
+    fontB: ""
+    # 侧边栏宽度（展开时的宽度）
+    # width: "300px"
+
+# 自动图标配置
+autoIcon:
+  # 自动图标模式选择
+  # 1: 强制所有网站自动获取图标（忽略自定义图标）
+  # 2: 网站图标为空时自动获取（保留自定义图标）
+  # 3: 非本地或链接图标一律自动获取（智能回退：服务商 → xicon → Font Awesome → 文字图标）
+  mode: 2
+
+# 分组排序配置
+categorySorting:
+  # 是否启用自动排序
+  # true: 按首字母自动排序（除了置顶和末尾分组）
+  # false: 使用 config.ts 中的固定顺序
+  autoSort: true
+  # 置顶分组（始终显示在最前面，按数组顺序排列）
+  pinnedCategories:
+    - "Favorites - 常用网站"
+    - "Private Projects - 私人项目"
+    - "AI Tools - AI工具"
+    - "Online Tools - 在线工具"
+    - "Useful Tools - 实用工具"
+    - "Productivity - 生产力工具"
+
+  # 末尾分组（始终显示在最后面，按数组顺序排列）
+  bottomCategories:
+    - "Other - 其他"
+
+# 网站排序配置
+siteSorting:
+  # 网站排序模式
+  # 1: 自动按首字母排序（中英文混合排序）
+  # 2: 中文网站在前，英文网站在后，分别按首字母排序
+  # 3: 按配置文件中的网站排序（不使用自动排序）
+  mode: 2
+
+# 外部网站配置
+externalConfig:
+  # 是否启用外部配置
+  # true: 构建时从外部 URL 拉取网站配置（会覆盖 config.ts 中的配置）
+  # false: 使用本地 config.ts 中的配置
+  enabled: true
+  # 外部配置文件的 URL（需要返回 JSON 格式的网站配置）
+  # 示例：https://example.com/sites-config.json
+  # 示例：https://gist.githubusercontent.com/username/xxx/raw/sites.json
+  url: ""
+  # 回退策略：当外部配置不可用时，自动使用本地 config.ts
+  # 注意：外部配置拉取失败时，构建过程会自动回退到本地配置，无需手动干预
+  
