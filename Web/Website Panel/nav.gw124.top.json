@@ -5,7 +5,7 @@
       {
         "name": "Google",
         "url": "https://www.google.com/",
-        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/Google/Google.png",
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/Google/Google.png"
       },
       {
         "name": "GitHub",
@@ -44,7 +44,7 @@
       },
       {
         "name": "Blog",
-        "url": "https://blog.gw124.top/",
+        "url": "https://blog.gw124.top/"
         "icon": "xicons:Blog",
       },
       {
