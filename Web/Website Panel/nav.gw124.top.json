@@ -45,12 +45,12 @@
       {
         "name": "Blog",
         "url": "https://blog.gw124.top/",
-        "icon": "xicons:Blog"
+        "icon": "xicon:Blog"
       },
       {
         "name": "Image Gallery",
         "url": "https://image.gw124.top/",
-        "icon": "xicons:Images"
+        "icon": "xicon:Images"
       },
       {
         "name": "Site Status",
