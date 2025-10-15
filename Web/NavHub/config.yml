@@ -7,7 +7,7 @@ deployment:
   # 填写域名: 部署时自动创建 CNAME 文件，使用指定的自定义域名
   # 留空 (""): 不创建 CNAME 文件，保留 GitHub Pages 中手动配置的域名设置
   # 注意：如果留空但 GitHub Pages 中也没有配置域名，则使用默认域名 (username.github.io/repo-name)
-  customDomain: "navhub.gw124.top"
+  customDomain: "nav.gw124.top"
 
 # 网页标题
 pageTitle: "人生寂寞，知己难求。"
