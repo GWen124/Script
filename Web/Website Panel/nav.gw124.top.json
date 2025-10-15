@@ -3,15 +3,9 @@
     "name": "Favorites - 常用网站",
     "sites": [
       {
-        "name": "Home Page",
-        "url": "https://gw124.top",
-        "icon": "https://image.gw124.top/Avatar/A62B54A6-13B8-4BB8-9AAA-75E3342388BB_1_105_c.jpeg"
-      },
-      {
         "name": "Google",
         "url": "https://www.google.com/",
         "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/Google/Google.png",
-        "autoIcon": true
       },
       {
         "name": "GitHub",
@@ -36,6 +30,81 @@
       {
         "name": "知乎",
         "url": "https://www.zhihu.com/",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "name": "Private Projects - 私人项目",
+    "sites": [
+      {
+        "name": "Home Page",
+        "url": "https://gw124.top",
+        "icon": "https://image.gw124.top/Avatar/A62B54A6-13B8-4BB8-9AAA-75E3342388BB_1_105_c.jpeg"
+      },
+      {
+        "name": "Blog",
+        "url": "https://blog.gw124.top/",
+        "icon": "xicons:Blog",
+      },
+      {
+        "name": "Image Gallery",
+        "url": "https://image.gw124.top/",
+        "icon": "xicons:Images"
+      },
+      {
+        "name": "Site Status",
+        "url": "https://sitestatus.gw124.top/",
+        "icon": ""
+      },
+      {
+        "name": "StatusLive",
+        "url": "https://statuslive.gw124.top/",
+        "icon": ""
+      },
+      {
+        "name": "Markdown Editor",
+        "url": "https://md.gw124.top/",
+        "icon": ""
+      },
+      {
+        "name": "Img Hub",
+        "url": "https://img.gw124.top/",
+        "icon": ""
+      },
+      {
+        "name": "Icons Hub",
+        "url": "https://icons.gw124.top/",
+        "icon": ""
+      },
+      {
+        "name": "GitHub Proxy",
+        "url": "https://cdn.gw124.top/",
+        "icon": ""
+      },
+      {
+        "name": "Short Link",
+        "url": "https://gw126.top/",
+        "icon": ""
+      },
+      {
+        "name": "Sublink Worker",
+        "url": "https://sublink.gw124.top/",
+        "icon": ""
+      },
+      {
+        "name": "2FA Auth",
+        "url": "https://2fa.gw124.top/",
+        "icon": ""
+      },
+      {
+        "name": "Global Time Overview",
+        "url": "https://gwen124.github.io/",
+        "icon": ""
+      },
+      {
+        "name": "Txt to Epub",
+        "url": "https://epub.gw124.top/",
         "icon": ""
       }
     ]
