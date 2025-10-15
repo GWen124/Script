@@ -75,37 +75,37 @@
       {
         "name": "Icons Hub",
         "url": "https://icons.gw124.top/",
-        "icon": ""
+        "icon": "xicon:Icons"
       },
       {
         "name": "GitHub Proxy",
         "url": "https://cdn.gw124.top/",
-        "icon": ""
+        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/Major Brand Projects/GitHub_C.png"
       },
       {
         "name": "Short Link",
         "url": "https://gw126.top/",
-        "icon": ""
+        "icon": "xicon:Paperclip"
       },
       {
         "name": "Sublink Worker",
         "url": "https://sublink.gw124.top/",
-        "icon": ""
+        "icon": "xicon:NetworkWired"
       },
       {
         "name": "2FA Auth",
         "url": "https://2fa.gw124.top/",
-        "icon": ""
+        "icon": "xicon:Unlock"
       },
       {
         "name": "Global Time Overview",
         "url": "https://gwen124.github.io/",
-        "icon": ""
+        "icon": "xicon:Clock"
       },
       {
         "name": "Txt to Epub",
         "url": "https://epub.gw124.top/",
-        "icon": ""
+        "icon": "xicon:FileExport"
       }
     ]
   },
@@ -590,7 +590,7 @@
     ]
   },
   {
-    "name": "Dev Tools - 开发工具",
+    "name": "Developer Tools - 开发工具",
     "sites": [
       {
         "name": "GitHub",
@@ -606,6 +606,16 @@
         "name": "Cursor",
         "url": "https://www.cursor.com",
         "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/AI/Cursor.png"
+      },
+      {
+        "name": "Xicons",
+        "url": "https://www.xicons.org/",
+        "icon": ""
+      },
+      {
+        "name": "Font Awesome",
+        "url": "https://fontawesome.com/icons",
+        "icon": ""
       },
       {
         "name": "Codepen",
