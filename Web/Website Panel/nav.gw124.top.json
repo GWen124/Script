@@ -65,12 +65,12 @@
       {
         "name": "Markdown Editor",
         "url": "https://md.gw124.top/",
-        "icon": ""
+        "icon": "xicon:Markdown"
       },
       {
         "name": "Img Hub",
         "url": "https://img.gw124.top/",
-        "icon": ""
+        "icon": "xicon:Image"
       },
       {
         "name": "Icons Hub",
