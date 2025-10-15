@@ -34,7 +34,7 @@ timeDate:
   # 是否显示时间日期模块
   # true: 显示时间日期模块
   # false: 隐藏时间日期模块，标题居中显示
-  enabled: true
+  enabled: false
 
 # Footer 信息配置
 footer:
