@@ -40,7 +40,7 @@
       {
         "name": "Home Page",
         "url": "https://gw124.top",
-        "icon": "https://image.gw124.top/Avatar/A62B54A6-13B8-4BB8-9AAA-75E3342388BB_1_105_c.jpeg"
+        "icon": "xicon:Home"
       },
       {
         "name": "Blog",
@@ -55,12 +55,12 @@
       {
         "name": "Site Status",
         "url": "https://sitestatus.gw124.top/",
-        "icon": ""
+        "icon": "xicon:Signal"
       },
       {
         "name": "StatusLive",
         "url": "https://statuslive.gw124.top/",
-        "icon": ""
+        "icon": "xicon:Server"
       },
       {
         "name": "Markdown Editor",
@@ -80,7 +80,7 @@
       {
         "name": "GitHub Proxy",
         "url": "https://cdn.gw124.top/",
-        "icon": "https://cdn.jsdelivr.net/gh/GWen124/MyIcons@Web/icon/Major Brand Projects/GitHub_C.png"
+        "icon": "xicon:GithubSquare"
       },
       {
         "name": "Short Link",
