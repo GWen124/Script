@@ -23,7 +23,7 @@
  * (不推荐！)手动配置项为config, 请看注释
  */
 
- let config = {
+let config = {
   silence: false, // 是否静默运行，默认false
   cellular: "RULE", // 蜂窝数据下的模式，RULE代表规则模式，PROXY代表全局代理，DIRECT代表全局直连
   wifi: "RULE", // wifi下默认的模式
